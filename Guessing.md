@@ -7,7 +7,7 @@ flowchart LR
     %% The beginning of the game
     A([Let's Begin!]) -- B(Guess a number 1 to 100!)
     %% This is where a number will be chosen
-    B -- C{Guessed number is input}
+    B -- C([Guessed number is input])
     %% User will chose a number and see if its correct
     %% If the number is correct, then the user can play again
     C -- D([You got it! Wanna play again?])
