@@ -16,7 +16,7 @@ flowchart LR
     %% If the number is too high, then they will be asked to try again
     E -- F([Too High! Please guess Again])
     %% If the number is too low, then they will also be asked to try again
-    E -- G([Too Low! Please guess Again!])
+    E --> G([Too Low! Please guess Again!])
     %% If the user types something that is not a number or a number outside of the range, they will be asked to try again
     E -- H([Wrong input! Try again, please!])
     %% If the choice is not acceptable, the user will have to try again
