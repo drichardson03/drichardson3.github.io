@@ -3,7 +3,7 @@
 
 ```mermaid
 
-flowchart LR
+flowchart LR;
     %% The beginning of the game
     A([Let's Begin!]) -- B(Guess a number 1 to 100!);
     %% This is where a number will be chosen
