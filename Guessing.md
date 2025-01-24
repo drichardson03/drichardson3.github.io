@@ -1,4 +1,4 @@
-### 1 to 100 Guessing Game
+#### 1 to 100 Guessing Game
 ## Flowchart Diagram of my Guessing Game
 
 ```mermaid
